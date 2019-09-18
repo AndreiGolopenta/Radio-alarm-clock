@@ -14,7 +14,7 @@ The application it also has a clock with alarm; when alarm is fired the user has
 
 __Screenshot__
 
-![alt text](https://raw.githubusercontent.com/AndreiGolopenta/My-CV/master/src/assets/screenshot.png)
+![alt text](https://raw.githubusercontent.com/AndreiGolopenta/Radio-alarm-clock/master/src/assets/screenshot.png)
 
 ## Project Dependencies
 `npm install`
