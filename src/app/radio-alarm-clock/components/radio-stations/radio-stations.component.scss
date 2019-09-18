@@ -1,0 +1,30 @@
+.radio-post {
+  position: relative;
+  padding: 5px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  border: 1px solid #ffffff49;
+  width: 100%;
+  box-sizing: border-box;
+  &.active {
+    background: #46162938;
+    color: #fff;
+  }
+}
+.radio-post:hover {
+  background: linear-gradient(#ac8eab10, #a18d9513);
+  &.active:hover {
+    background: #4616295d;
+  }
+}
+
+.my-animation {
+  position: absolute;
+  right: 50px;
+  top: 119px;
+  display: none;
+  &.active {
+    display: block;
+  }
+}

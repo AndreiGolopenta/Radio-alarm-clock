@@ -1,0 +1,56 @@
+.my-animation {
+  position: relative;
+  top: -100px;
+  .animation {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    width: 4.5px;
+    height: 2.5px;
+    background: #973163;
+    animation: list-animation 3s infinite ease-in;
+    &.two {
+      left: 5.5px;
+      animation-delay: 0.2s;
+    }
+    &.three {
+      left: 11px;
+      animation-delay: 0.5s;
+    }
+    &.four {
+      left: 16.5px;
+      animation-delay: 0.8s;
+    }
+    &.five {
+      left: 22px;
+      animation-delay: 1.1s;
+    }
+    &.six {
+      left: 27.5px;
+      animation-delay: 1.4s;
+    }
+  }
+}
+
+@keyframes list-animation {
+  0% {
+    height: 2.5px;
+    transform: translateY(0px);
+    background: #973163;
+  }
+  25% {
+    height: 20px;
+    transform: translateY(7px);
+    background: #d9325d;
+  }
+  50% {
+    height: 2.5px;
+    transform: translateY(0px);
+    background: #973163;
+  }
+  100% {
+    height: 2.5px;
+    transform: translateY(0px);
+    background: #973163;
+  }
+}

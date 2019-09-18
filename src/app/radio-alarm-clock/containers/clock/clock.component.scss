@@ -1,0 +1,35 @@
+@mixin formatText {
+  font-size: 45px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+div {
+  position: relative;
+  top: -1px;
+  left: -86px;
+  width: 330px;
+  font-size: 45px;
+  display: flex;
+  justify-content: center;
+  @include formatText;
+  p {
+    position: relative;
+    top: -10px;
+  }
+  p,
+  span {
+    @include formatText;
+    .seconds {
+      position: relative;
+      top: -11px;
+      left: 10px;
+      font-size: 26px;
+    }
+  }
+}
+
+.days {
+  position: relative;
+  top: -16px;
+}

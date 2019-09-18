@@ -1,0 +1,50 @@
+
+.myRadio {
+  position: relative;
+  top: 200px;
+  box-sizing: border-box;
+  width: 350px;
+  height: 375px;
+  border-radius: 40px 40px 40px 40px;
+  box-shadow: 1px 1px 3px 1px #ccc;
+  border: 10px solid #eee;
+  background: linear-gradient(#D9325D, #973163);
+  .logo {
+    position: absolute;
+    top: 274.5px;
+    left: 1px;
+    width: 90px;
+    height: 79.5px;
+    box-sizing: border-box;
+    border-radius: 0 0 0 29px;
+  }
+  .buttons {
+    position: absolute;
+    top: 310px;
+    left: 100px;
+    color: #eee;
+  }
+  .station-name {
+    position: relative;
+    top: 275px;
+    left: 100px;
+  }
+  .stations-list {
+    position: relative;
+    top: 61px;
+    left: 1px;
+    width: 328.5px;
+    background: linear-gradient(#494646, #2e2d2d);
+  }
+}
+
+alarm-clock {
+  position: relative;
+  top: -135px;
+  left: 96px;
+}
+
+list-animation {
+  position: relative;
+  top: -300px;
+}

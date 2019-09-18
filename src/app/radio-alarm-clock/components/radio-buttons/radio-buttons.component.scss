@@ -1,0 +1,40 @@
+div {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  position: absolute;
+  top: -2px;
+  box-sizing: border-box;
+  .material-icons {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .material-icons:hover {
+    font-size: 27px;
+    color: #d1d0d0;
+  }
+}
+
+.vol-down {
+  left: -8px;
+}
+.prev {
+  left: 38px;
+}
+.play-stop {
+  left: 82px;
+  i {
+    font-size: 40px;
+  }
+  i:hover {
+    font-size: 43px;
+  }
+}
+.next {
+  left: 128px;
+}
+.vol-up {
+  left: 173px;
+}
