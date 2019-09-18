@@ -1,13 +1,13 @@
 # Radio with alarm clock
 
 ## Description
-This is a radio application with with five stations :
+This is a radio application with a clock alarm; when the alarm is fired the user has the option to stop the alarm or snooze it for 1 minute; 
+There are five radion stations available:
 * Kiss FM
 * Radio ZU
 * Digi FM
 * Europa FM
 * Pro FM
-The application it also has a clock with alarm; when alarm is fired the user has the option to stop the alarm or snooze it for 1 minute; 
 
 ## Built with
 * Angular
